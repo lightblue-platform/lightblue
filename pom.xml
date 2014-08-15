@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+Copyright 2013 Red Hat, Inc. and/or its affiliates.
+
+This file is part of lightblue.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+        <relativePath></relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.redhat.lightblue</groupId>
+    <artifactId>pom</artifactId>
+    <packaging>pom</packaging>
+    <version>0.1-SNAPSHOT</version>
+    <name>lightblue: ${project.groupId}|${project.artifactId}</name>
+    <description>metadata driven enterprise data services</description>
+    <url>https://github.com/lightblue-platform/lightblue</url>
+    <licenses>
+        <license>
+            <name>GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007</name>
+            <url>http://www.gnu.org/licenses/gpl-3.0-standalone.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <connection>scm:git:https://github.com/lightblue-platform/lightblue.git</connection>
+        <developerConnection>scm:git:git@github.com:lightblue-platform/lightblue.git</developerConnection>
+        <url>https://github.com/lightblue-platform/lightblue</url>
+    </scm>
+    <developers>
+        <developer>
+            <id>bserdar</id>
+            <name>Burak Serdar</name>
+            <email>bserdar@redhat.com</email>
+            <organization>Red Hat</organization>
+        </developer>
+        <developer>
+            <id>nmalik</id>
+            <name>Naveen Malik</name>
+            <email>nmalik@redhat.com</email>
+            <organization>Red Hat</organization>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+            <timezone>-5</timezone>
+        </developer>
+        <developer>
+            <id>dhaynes</id>
+            <name>Derek Haynes</name>
+            <email>dhaynes@redhat.com</email>
+            <organization>Red Hat</organization>
+            <roles>
+                <role>developer</role>
+            </roles>
+            <timezone>-5</timezone>
+        </developer>
+        <developer>
+            <id>lcestari</id>
+            <name>Luan Cestari</name>
+            <email>lcestari@redhat.com</email>
+            <organization>Red Hat</organization>
+            <roles>
+                <role>developer</role>
+            </roles>
+            <timezone>-3</timezone>
+        </developer>
+    </developers>
+    <modules>
+        <module>lightblue-core</module>
+        <module>lightblue-mongo</module>
+        <module>lightblue-rest</module>
+        <module>lightblue-rdbms</module>
+    </modules>
+    <properties>
+        <sonar.jdbc.url>jdbc:mysql://127.0.0.1:3306/sonar?useUnicode=true&amp;characterEncoding=utf8&amp;rewriteBatchedStatements=true</sonar.jdbc.url>
+        <sonar.jdbc.username>sonar</sonar.jdbc.username>
+        <sonar.jdbc.password>sonar</sonar.jdbc.password>
+        <sonar.host.url>http://127.0.0.1:8080</sonar.host.url>
+        <sonar.projectName>lightblue</sonar.projectName>
+    </properties>
+</project>
