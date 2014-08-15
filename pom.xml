@@ -84,6 +84,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         </developer>
     </developers>
     <modules>
+        <module>lightblue-applications</module>
+        <module>lightblue-audit-hook</module>
         <module>lightblue-core</module>
         <module>lightblue-mongo</module>
         <module>lightblue-rest</module>
