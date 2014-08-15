@@ -5,6 +5,7 @@ jdk:
 
 before_install:
   - cp ./settings.xml ~/.m2/
+  - git submodule update --init --recursive
 
 after_success:
   - mvn clean test jacoco:report coveralls:jacoco
