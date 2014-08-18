@@ -1,4 +1,14 @@
-[![Build Status](https://travis-ci.org/lightblue-platform/lightblue.svg?branch=master)](https://travis-ci.org/lightblue-platform/lightblue) [![Coverage Status](https://coveralls.io/repos/lightblue-platform/lightblue/badge.png)](https://coveralls.io/r/lightblue-platform/lightblue) [![Stories in Ready](https://badge.waffle.io/lightblue-platform/lightblue.svg?label=ready&title=Ready)](http://waffle.io/lightblue-platform/lightblue)
+# Status
+
+
+Repository | Build | Test Coverage
+--- | ---- | ---
+[lightblue-core](https://github.com/lightblue-platform/lightblue-core) | [![Build Status](https://travis-ci.org/lightblue-platform/lightblue-core.svg?branch=master)](https://travis-ci.org/lightblue-platform/lightblue-core) | [![Coverage Status](https://coveralls.io/repos/lightblue-platform/lightblue-core/badge.png?branch=master)](https://coveralls.io/r/lightblue-platform/lightblue-core?branch=master)
+|[lightblue-mongo](https://github.com/lightblue-platform/lightblue-mongo) | [![Build Status](https://travis-ci.org/lightblue-platform/lightblue-mongo.svg?branch=master)](https://travis-ci.org/lightblue-platform/lightblue-mongo) | [![Coverage Status](https://coveralls.io/repos/lightblue-platform/lightblue-mongo/badge.png)](https://coveralls.io/r/lightblue-platform/lightblue-mongo)
+|[lightblue-rdbms](https://github.com/lightblue-platform/lightblue-rdbms) | [![Build Status](https://travis-ci.org/lightblue-platform/lightblue-rdbms.svg?branch=master)](https://travis-ci.org/lightblue-platform/lightblue-rdbms) | [![Coverage Status](https://coveralls.io/repos/lightblue-platform/lightblue-rdbms/badge.png)](https://coveralls.io/r/lightblue-platform/lightblue-rdbms)
+|[lightblue-rest](https://github.com/lightblue-platform/lightblue-rest) | [![Build Status](https://travis-ci.org/lightblue-platform/lightblue-rest.svg?branch=master)](https://travis-ci.org/lightblue-platform/lightblue-rest) | [![Coverage Status](https://coveralls.io/repos/lightblue-platform/lightblue-rest/badge.png)](https://coveralls.io/r/lightblue-platform/lightblue-rest)
+|[lightblue-applications](https://github.com/lightblue-platform/lightblue-applications) | [![Build Status](https://travis-ci.org/lightblue-platform/lightblue-applications.svg?branch=master)](https://travis-ci.org/lightblue-platform/lightblue-applications) | [![Coverage Status](https://coveralls.io/repos/lightblue-platform/lightblue-applications/badge.png)](https://coveralls.io/r/lightblue-platform/lightblue-applications)
+|[lightblue-audit-hook](https://github.com/lightblue-platform/lightblue-audit-hook) | [![Build Status](https://travis-ci.org/lightblue-platform/lightblue-audit-hook.svg?branch=master)](https://travis-ci.org/lightblue-platform/lightblue-audit-hook) | [![Coverage Status](https://coveralls.io/repos/lightblue-platform/lightblue-audit-hook/badge.png?branch=master)](https://coveralls.io/r/lightblue-platform/lightblue-audit-hook?branch=master)
 
 # Books!
 
