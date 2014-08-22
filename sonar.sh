@@ -6,6 +6,20 @@ git submodule update --init --recursive
 # make sure latest source is pulled
 git submodule foreach git pull origin master
 
+# make sure sonar is online
+echo "Making sure sonar is online!"
+if [ $(curl -I -s https://sonar-lightblue.rhcloud.com/ -s | head -n1 | grep "HTTP[/][^ ]* 200" | wc -l) == "0" ]; then
+    echo "Restarting sonar... (will take about a minute)"
+    rhc app restart sonar -n lightblue
+    echo -n "Waiting for web app to respond.."
+    until [ $(curl -I -s https://sonar-lightblue.rhcloud.com/ -s | head -n1 | grep "HTTP[/][^ ]* 200" | wc -l) != "0" ]; do
+        sleep 5
+        echo -n "."
+    done
+    echo "done"
+fi
+
+
 # kill any previous port forward
 pkill -9 -f "rhc port-forward sonar [-]n lightblue"
 
