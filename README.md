@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/lightblue-platform/lightblue.png?label=ready&title=Ready)](https://waffle.io/lightblue-platform/lightblue)
 # Status
 
 
