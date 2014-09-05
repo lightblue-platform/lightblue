@@ -16,3 +16,6 @@
 [submodule "lightblue-applications"]
 	path = lightblue-applications
     url = https://github.com/lightblue-platform/lightblue-applications.git
+[submodule "lightblue-client"]
+	path = lightblue-client
+	url = https://github.com/lightblue-platform/lightblue-client.git
