@@ -2589,13 +2589,6 @@ Authorization</content>
         </child>
       </element>
     </folder>
-    <folder name="FAQ" id="a2cfcf23">
-      <element xsi:type="archimate:ArchimateDiagramModel" id="db5f55bc" name="Auto-scaling"/>
-      <element xsi:type="archimate:ArchimateDiagramModel" id="bdb17dbe" name="Auto-healing"/>
-      <element xsi:type="archimate:ArchimateDiagramModel" id="8b7138dc" name="Resiliancy"/>
-      <element xsi:type="archimate:ArchimateDiagramModel" id="38cdb2fa" name="MongoDB"/>
-      <element xsi:type="archimate:ArchimateDiagramModel" id="232ffaa9" name="Testing"/>
-    </folder>
     <element xsi:type="archimate:ArchimateDiagramModel" id="6924d47b" name="Master: Architecture">
       <child xsi:type="archimate:DiagramObject" id="b72eda87" textAlignment="2" archimateElement="61c6f34c">
         <bounds x="552" y="288"/>
