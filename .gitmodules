@@ -19,3 +19,6 @@
 [submodule "lightblue-client"]
 	path = lightblue-client
 	url = https://github.com/lightblue-platform/lightblue-client.git
+[submodule "lightblue-migrator"]
+	path = lightblue-migrator
+	url = https://github.com/lightblue-platform/lightblue-migrator.git
