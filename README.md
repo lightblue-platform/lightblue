@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/lightblue-platform/lightblue.png?label=ready&title=Ready)](https://waffle.io/lightblue-platform/lightblue)
 # Status
 
 
@@ -9,6 +10,7 @@ Repository | Build | Test Coverage
 |[lightblue-rest](https://github.com/lightblue-platform/lightblue-rest) | [![Build Status](https://travis-ci.org/lightblue-platform/lightblue-rest.svg?branch=master)](https://travis-ci.org/lightblue-platform/lightblue-rest) | [![Coverage Status](https://coveralls.io/repos/lightblue-platform/lightblue-rest/badge.png)](https://coveralls.io/r/lightblue-platform/lightblue-rest)
 |[lightblue-applications](https://github.com/lightblue-platform/lightblue-applications) | [![Build Status](https://travis-ci.org/lightblue-platform/lightblue-applications.svg?branch=master)](https://travis-ci.org/lightblue-platform/lightblue-applications) | [![Coverage Status](https://coveralls.io/repos/lightblue-platform/lightblue-applications/badge.png)](https://coveralls.io/r/lightblue-platform/lightblue-applications)
 |[lightblue-audit-hook](https://github.com/lightblue-platform/lightblue-audit-hook) | [![Build Status](https://travis-ci.org/lightblue-platform/lightblue-audit-hook.svg?branch=master)](https://travis-ci.org/lightblue-platform/lightblue-audit-hook) | [![Coverage Status](https://coveralls.io/repos/lightblue-platform/lightblue-audit-hook/badge.png?branch=master)](https://coveralls.io/r/lightblue-platform/lightblue-audit-hook?branch=master)
+|[lightblue-migrator](https://github.com/lightblue-platform/lightblue-migrator) | [![Build Status](https://travis-ci.org/lightblue-platform/lightblue-migrator.svg?branch=master)](https://travis-ci.org/lightblue-platform/lightblue-migrator) | [![Coverage Status](https://coveralls.io/repos/lightblue-platform/lightblue-migrator/badge.png?branch=master)](https://coveralls.io/r/lightblue-platform/lightblue-migrator?branch=master)
 
 # Books!
 
