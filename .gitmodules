@@ -24,4 +24,4 @@
 	url = git@github.com:lightblue-platform/lightblue-migrator.git
 [submodule "lightblue-ldap"]
 	path = lightblue-ldap
-	url = https://github.com/lightblue-platform/lightblue-ldap.git
+	url = git@github.com:lightblue-platform/lightblue-ldap.git
