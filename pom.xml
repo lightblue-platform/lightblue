@@ -82,6 +82,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
             </roles>
             <timezone>-3</timezone>
         </developer>
+        <developer>
+            <id>dcrissman</id>
+            <name>Dennis Crissman</name>
+            <email>dcrissman@redhat.com</email>
+            <organization>Red Hat</organization>
+            <roles>
+                <role>developer</role>
+            </roles>
+            <timezone>-5</timezone>
+        </developer>
     </developers>
     <modules>
         <module>lightblue-applications</module>
