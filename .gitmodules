@@ -22,3 +22,6 @@
 [submodule "lightblue-migrator"]
 	path = lightblue-migrator
 	url = git@github.com:lightblue-platform/lightblue-migrator.git
+[submodule "lightblue-ldap"]
+	path = lightblue-ldap
+	url = git@github.com:lightblue-platform/lightblue-ldap.git
