@@ -1,6 +1,6 @@
 {
   "objectType":"user",
-  "version":"2.0.0",
+  "version":"1.0.0",
   "projection": { "field":"_id"},
   "data": {"$array" : { "length":100,
                         "element":
