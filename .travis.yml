@@ -10,7 +10,7 @@ before_install:
     - git submodule update --init --recursive
     - git submodule foreach git pull origin master
 script:
-    - mvn -B clean verify cobertura:cobertura coveralls:cobertura -Dorg.apache.maven.user-settings=~/settings.xml -Dorg.apache.maven.global-settings=~/settings.xml
+    - mvn -B clean verify cobertura:cobertura coveralls:report
 after_failure: ~/onFailure.sh
 notifications:
   email: false
