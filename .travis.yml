@@ -2,18 +2,21 @@ language: java
 jdk:
   - openjdk7
   - oraclejdk8
-
 before_install:
-  - cp ./settings.xml ~/.m2/
-  - git submodule update --init --recursive
-
-after_success:
-  - mvn clean test jacoco:report coveralls:jacoco
-
+    - cp ./etc/settings.xml ~/.m2/
+    - cp ./etc/settings-arquillian.xml ~/
+    - cp ./etc/onFailure.sh  ~/
+    - cp ./etc/logging.properties  ~/
+    - chmod 777 ~/onFailure.sh
+    - git submodule update --init --recursive
+    - git submodule foreach git pull origin master
+script:
+    - mvn -B clean verify cobertura:cobertura coveralls:cobertura -Dorg.apache.maven.user-settings=~/settings-arquillian.xml -Dorg.apache.maven.global-settings=~/settings-arquillian.xml
+after_failure: ~/onFailure.sh
 notifications:
   email: false
   irc:
     channels:
-      - "chat.freenode.net#lightblue"
+            - chat.freenode.net#lightblue
     on_success: always
 
