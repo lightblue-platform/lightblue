@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # make sure things are initialized
-./update.sh
+./etc/update.sh
 
 # make sure sonar is online
 echo "Making sure sonar is online!"
