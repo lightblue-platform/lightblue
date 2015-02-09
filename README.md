@@ -1,7 +1,6 @@
 [![Stories in Ready](https://badge.waffle.io/lightblue-platform/lightblue.png?label=ready&title=Ready)](https://waffle.io/lightblue-platform/lightblue)
 # Status
 
-
 Repository | Build | Test Coverage
 --- | ---- | ---
 [lightblue-core](https://github.com/lightblue-platform/lightblue-core) | [![Build Status](https://travis-ci.org/lightblue-platform/lightblue-core.svg?branch=master)](https://travis-ci.org/lightblue-platform/lightblue-core) | [![Coverage Status](https://coveralls.io/repos/lightblue-platform/lightblue-core/badge.png?branch=master)](https://coveralls.io/r/lightblue-platform/lightblue-core?branch=master)
