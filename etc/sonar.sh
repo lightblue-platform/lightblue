@@ -32,6 +32,8 @@ if [ -f "rhc-port-forward-status" ]
 then
     echo "Error on rhc port-forward. Error code:"
     cat rhc-port-forward-status 
+    rm -f rhc-port-forward-status
+    # rhc process should dead, so it would not need  pkill -9 -f "rhc port-forward sonar [-]n lightblue"
     exit 1
 fi
 
@@ -46,3 +48,4 @@ done;
 
 # cleanup port forwarding
 pkill -9 -f "rhc port-forward sonar [-]n lightblue"
+rm -f rhc-port-forward-status
