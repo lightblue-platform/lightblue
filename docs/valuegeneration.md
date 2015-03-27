@@ -7,7 +7,7 @@ There is a need for lightblue to automatically generate required values when not
 * Generate creation and modification date when inserting new entities.
 
 ### Information needed to generate a value
-Generated or not, each field needs a type. Generation can be done using different methods and those methods can accept parameters. For clarity's sake, I would generate the value only for insert operations and only when the value is not specified by the client (that means modification date on update still has to be refreshed explicitly by client). Generation makes sense only for required fields, so when generator is specified, ligtblue should implicitly make the field required.
+Generated or not, each field needs a type. Generation can be done using different methods (random string, random int, sequance int, etc.) and those methods can accept parameters (length, range, signed/unsigned). For clarity's sake, I would generate the value only for insert operations and only when the value is not specified by the client (that means modification date on update still has to be refreshed explicitly by client). Generation makes sense only for required fields, so when generator is specified, ligtblue should implicitly make the field required.
 
 ### Proposed metadata syntax
 
