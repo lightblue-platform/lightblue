@@ -9,6 +9,8 @@ There is a need for lightblue to automatically generate required values when not
 ### Information needed to generate a value
 Generated or not, each field needs a type. Generation can be done using different methods (random string, random int, sequance int, etc.) and those methods can accept parameters (length, range, signed/unsigned). For clarity's sake, I would generate the value only for insert operations and only when the value is not specified by the client (that means modification date on update still has to be refreshed explicitly by client). Generation makes sense only for required fields, so when generator is specified, ligtblue should implicitly make the field required.
 
+## Minimum functionality needed to cover the use cases above
+
 ### Proposed metadata syntax
 
 Associating generators with fields in the schema:
@@ -52,7 +54,9 @@ Creation date:
 
 Uid field type will be superseded by stringId value generator, but it has to be kept for backwards compatibility. 
 
-### More ideas
+## Complete generator funcionality
+
+Including features I don't see a use for right now.
 
 Custom generators defined in entityInfo:
 ```
