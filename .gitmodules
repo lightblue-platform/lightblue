@@ -1,19 +1,27 @@
-[submodule "lightblue-core"]
-	path = lightblue-core
-    url = https://github.com/lightblue-platform/lightblue-core.git
-	url = git@github.com:lightblue-platform/lightblue-core.git
-[submodule "lightblue-rdbms"]
-	path = lightblue-rdbms
-    url = https://github.com/lightblue-platform/lightblue-rdbms.git
-[submodule "lightblue-mongo"]
-	path = lightblue-mongo
-    url = https://github.com/lightblue-platform/lightblue-mongo.git
-[submodule "lightblue-rest"]
-	path = lightblue-rest
-    url = https://github.com/lightblue-platform/lightblue-rest.git
-[submodule "lightblue-audit-hook"]
-	path = lightblue-audit-hook
-    url = https://github.com/lightblue-platform/lightblue-audit-hook.git
 [submodule "lightblue-applications"]
 	path = lightblue-applications
-    url = https://github.com/lightblue-platform/lightblue-applications.git
+	url = https://github.com/lightblue-platform/lightblue-applications.git
+[submodule "lightblue-audit-hook"]
+	path = lightblue-audit-hook
+	url = https://github.com/lightblue-platform/lightblue-audit-hook.git
+[submodule "lightblue-client"]
+	path = lightblue-client
+	url = https://github.com/lightblue-platform/lightblue-client.git
+[submodule "lightblue-core"]
+	path = lightblue-core
+	url = https://github.com/lightblue-platform/lightblue-core.git
+[submodule "lightblue-ldap"]
+	path = lightblue-ldap
+	url = https://github.com/lightblue-platform/lightblue-ldap.git
+[submodule "lightblue-mongo"]
+	path = lightblue-mongo
+	url = https://github.com/lightblue-platform/lightblue-mongo.git
+[submodule "lightblue-rdbms"]
+	path = lightblue-rdbms
+	url = https://github.com/lightblue-platform/lightblue-rdbms.git
+[submodule "lightblue-rest"]
+	path = lightblue-rest
+	url = https://github.com/lightblue-platform/lightblue-rest.git
+[submodule "lightblue-migrator"]
+	path = lightblue-migrator
+	url = https://github.com/lightblue-platform/lightblue-migrator.git
