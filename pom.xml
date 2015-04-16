@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
 Copyright 2013 Red Hat, Inc. and/or its affiliates.
 
 This file is part of lightblue.
@@ -82,14 +81,28 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
             </roles>
             <timezone>-3</timezone>
         </developer>
+        <developer>
+            <id>dcrissman</id>
+            <name>Dennis Crissman</name>
+            <email>dcrissman@redhat.com</email>
+            <organization>Red Hat</organization>
+            <roles>
+                <role>developer</role>
+            </roles>
+            <timezone>-5</timezone>
+        </developer>
     </developers>
     <modules>
         <module>lightblue-applications</module>
         <module>lightblue-audit-hook</module>
+        <module>lightblue-client</module>
         <module>lightblue-core</module>
         <module>lightblue-mongo</module>
         <module>lightblue-rest</module>
+        <!--
         <module>lightblue-rdbms</module>
+        -->
+        <module>lightblue-ldap</module>
     </modules>
     <properties>
         <sonar.jdbc.url>jdbc:mysql://127.0.0.1:3306/sonar?useUnicode=true&amp;characterEncoding=utf8&amp;rewriteBatchedStatements=true</sonar.jdbc.url>
@@ -98,4 +111,34 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <sonar.host.url>http://127.0.0.1:8080</sonar.host.url>
         <sonar.projectName>lightblue</sonar.projectName>
     </properties>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.18.1</version>
+                <configuration>
+                    <systemPropertyVariables>
+                        <log4j.configuration>file:etc/logging.properties</log4j.configuration>
+                    </systemPropertyVariables>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.eluder.coveralls</groupId>
+                <artifactId>coveralls-maven-plugin</artifactId>
+                <version>3.0.1</version>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>cobertura-maven-plugin</artifactId>
+                <version>2.6</version>
+                <configuration>
+                    <format>xml</format>
+                    <maxmem>256m</maxmem>
+                    <!-- aggregated reports for multi-module projects -->
+                    <aggregate>true</aggregate>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
