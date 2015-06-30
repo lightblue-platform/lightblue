@@ -5,18 +5,23 @@ Repository | Build | Test Coverage
 --- | ---- | ---
 [lightblue-core](https://github.com/lightblue-platform/lightblue-core) | [![Build Status](https://travis-ci.org/lightblue-platform/lightblue-core.svg?branch=master)](https://travis-ci.org/lightblue-platform/lightblue-core) | [![Coverage Status](https://coveralls.io/repos/lightblue-platform/lightblue-core/badge.png?branch=master)](https://coveralls.io/r/lightblue-platform/lightblue-core?branch=master)
 |[lightblue-mongo](https://github.com/lightblue-platform/lightblue-mongo) | [![Build Status](https://travis-ci.org/lightblue-platform/lightblue-mongo.svg?branch=master)](https://travis-ci.org/lightblue-platform/lightblue-mongo) | [![Coverage Status](https://coveralls.io/repos/lightblue-platform/lightblue-mongo/badge.png)](https://coveralls.io/r/lightblue-platform/lightblue-mongo)
-|[lightblue-rdbms](https://github.com/lightblue-platform/lightblue-rdbms) | [![Build Status](https://travis-ci.org/lightblue-platform/lightblue-rdbms.svg?branch=master)](https://travis-ci.org/lightblue-platform/lightblue-rdbms) | [![Coverage Status](https://coveralls.io/repos/lightblue-platform/lightblue-rdbms/badge.png)](https://coveralls.io/r/lightblue-platform/lightblue-rdbms)
 |[lightblue-rest](https://github.com/lightblue-platform/lightblue-rest) | [![Build Status](https://travis-ci.org/lightblue-platform/lightblue-rest.svg?branch=master)](https://travis-ci.org/lightblue-platform/lightblue-rest) | [![Coverage Status](https://coveralls.io/repos/lightblue-platform/lightblue-rest/badge.png)](https://coveralls.io/r/lightblue-platform/lightblue-rest)
 |[lightblue-applications](https://github.com/lightblue-platform/lightblue-applications) | [![Build Status](https://travis-ci.org/lightblue-platform/lightblue-applications.svg?branch=master)](https://travis-ci.org/lightblue-platform/lightblue-applications) | [![Coverage Status](https://coveralls.io/repos/lightblue-platform/lightblue-applications/badge.png)](https://coveralls.io/r/lightblue-platform/lightblue-applications)
 |[lightblue-audit-hook](https://github.com/lightblue-platform/lightblue-audit-hook) | [![Build Status](https://travis-ci.org/lightblue-platform/lightblue-audit-hook.svg?branch=master)](https://travis-ci.org/lightblue-platform/lightblue-audit-hook) | [![Coverage Status](https://coveralls.io/repos/lightblue-platform/lightblue-audit-hook/badge.png?branch=master)](https://coveralls.io/r/lightblue-platform/lightblue-audit-hook?branch=master)
 |[lightblue-migrator](https://github.com/lightblue-platform/lightblue-migrator) | [![Build Status](https://travis-ci.org/lightblue-platform/lightblue-migrator.svg?branch=master)](https://travis-ci.org/lightblue-platform/lightblue-migrator) | [![Coverage Status](https://coveralls.io/repos/lightblue-platform/lightblue-migrator/badge.png?branch=master)](https://coveralls.io/r/lightblue-platform/lightblue-migrator?branch=master)
+|[lightblue-publish-hook](https://github.com/lightblue-platform/lightblue-publish-hook) | [![Build Status](https://travis-ci.org/lightblue-platform/lightblue-publish-hook.svg?branch=master)](https://travis-ci.org/lightblue-platform/lightblue-publish-hook) | [![Coverage Status](https://coveralls.io/repos/lightblue-platform/lightblue-publish-hook/badge.png)](https://coveralls.io/r/lightblue-platform/lightblue-publish-hook)
+|[lightblue-camel](https://github.com/lightblue-platform/lightblue-camel) | [![Build Status](https://travis-ci.org/lightblue-platform/lightblue-camel.svg?branch=master)](https://travis-ci.org/lightblue-platform/lightblue-camel) | [![Coverage Status](https://coveralls.io/repos/lightblue-platform/lightblue-camel/badge.png)](https://coveralls.io/r/lightblue-platform/lightblue-camel)
+|[lightblue-client](https://github.com/lightblue-platform/lightblue-client) | [![Build Status](https://travis-ci.org/lightblue-platform/lightblue-client.svg?branch=master)](https://travis-ci.org/lightblue-platform/lightblue-client) | [![Coverage Status](https://coveralls.io/repos/lightblue-platform/lightblue-client/badge.png)](https://coveralls.io/r/lightblue-platform/lightblue-client)
+|[lightblue-ldap](https://github.com/lightblue-platform/lightblue-ldap) | [![Build Status](https://travis-ci.org/lightblue-platform/lightblue-ldap.svg?branch=master)](https://travis-ci.org/lightblue-platform/lightblue-ldap) | [![Coverage Status](https://coveralls.io/repos/lightblue-platform/lightblue-ldap/badge.png)](https://coveralls.io/r/lightblue-platform/lightblue-ldap)
 
 # Books!
 
-* [Overview](http://jewzaam.gitbooks.io/lightblue/)
-* [User Guide](http://jewzaam.gitbooks.io/lightblue-user-guide/)
-* [Developer Manual](http://jewzaam.gitbooks.io/lightblue-developer-manual/)
-
+| Title | Summary |
+| ---- | ----------- |
+| [Overview](http://lightblue.io/) | New to lightblue?  Start here! |
+| [Specifications](http://jewzaam.gitbooks.io/lightblue-specifications/content/) | The language and REST specifications for lightblue. |
+| [User Guide](http://docs.lightblue.io/) | How to use lightblue including getting started quickly on [OpenShift](http://openshift.com). |
+| [Developer Manual](http://dev.docs.lightblue.io/) | Want to contribute?  Take a look at the other books and then dive into this manual! |
 
 # lightblue
 
