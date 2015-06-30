@@ -16,9 +16,6 @@
 [submodule "lightblue-mongo"]
 	path = lightblue-mongo
 	url = https://github.com/lightblue-platform/lightblue-mongo.git
-[submodule "lightblue-rdbms"]
-	path = lightblue-rdbms
-	url = https://github.com/lightblue-platform/lightblue-rdbms.git
 [submodule "lightblue-rest"]
 	path = lightblue-rest
 	url = https://github.com/lightblue-platform/lightblue-rest.git
@@ -28,6 +25,3 @@
 [submodule "lightblue-publish-hook"]
 	path = lightblue-publish-hook
 	url = https://github.com/lightblue-platform/lightblue-publish-hook.git
-[submodule "lightblue-camel"]
-	path = lightblue-camel
-	url = https://github.com/lightblue-platform/lightblue-camel.git
