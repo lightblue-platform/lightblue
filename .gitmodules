@@ -25,3 +25,6 @@
 [submodule "lightblue-publish-hook"]
 	path = lightblue-publish-hook
 	url = https://github.com/lightblue-platform/lightblue-publish-hook.git
+[submodule "lightblue-camel"]
+	path = lightblue-camel
+	url = https://github.com/lightblue-platform/lightblue-camel.git
