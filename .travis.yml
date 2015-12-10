@@ -21,3 +21,4 @@ notifications:
             - chat.freenode.net#lightblue
     on_success: always
 
+sudo: false
