@@ -142,4 +142,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
             </plugin>
         </plugins>
     </build>
+    <reporting>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>findbugs-maven-plugin</artifactId>
+                <configuration>
+                    <effort>Max</effort>
+                    <threshold>Low</threshold>
+                </configuration>
+            </plugin>
+        </plugins>
+    </reporting>
 </project>
