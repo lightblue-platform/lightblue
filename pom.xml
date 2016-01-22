@@ -96,11 +96,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <modules>
         <module>lightblue-applications</module>
         <module>lightblue-audit-hook</module>
+<!--
         <module>lightblue-camel</module>
+-->
         <module>lightblue-client</module>
         <module>lightblue-core</module>
         <module>lightblue-esb-hook</module>
+<!--
         <module>lightblue-ldap</module>
+-->
         <module>lightblue-migrator</module>
         <module>lightblue-mongo</module>
         <module>lightblue-rest</module>
