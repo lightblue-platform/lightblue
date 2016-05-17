@@ -101,12 +101,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
         <module>lightblue-client</module>
         <module>lightblue-core</module>
-        <module>lightblue-esb-hook</module>
 <!--
+        <module>lightblue-esb-hook</module>
         <module>lightblue-ldap</module>
 -->
         <module>lightblue-migrator</module>
         <module>lightblue-mongo</module>
+        <module>lightblue-notification-hook</module>
         <module>lightblue-rest</module>
     </modules>
     <properties>
