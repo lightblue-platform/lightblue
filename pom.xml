@@ -101,6 +101,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
         <module>lightblue-client</module>
         <module>lightblue-core</module>
+        <module>lightblue-java-generator</module>
 <!--
         <module>lightblue-esb-hook</module>
         <module>lightblue-ldap</module>

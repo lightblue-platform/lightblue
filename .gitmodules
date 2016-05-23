@@ -31,3 +31,6 @@
 [submodule "lightblue-notification-hook"]
 	path = lightblue-notification-hook
 	url = https://github.com/esbtools/lightblue-notification-hook.git
+[submodule "lightblue-java-generator"]
+	path = lightblue-java-generator
+	url = https://github.com/lightblue-platform/lightblue-java-generator.git
